@@ -1,0 +1,16 @@
+#toggleBtn:hover {
+    cursor: pointer;
+}
+
+.toggle-dot {
+    transition: 0.5s;
+}
+
+a {
+    transition: all 0.5s ease;
+}
+
+a:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}

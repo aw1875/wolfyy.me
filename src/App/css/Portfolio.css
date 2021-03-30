@@ -1,0 +1,7 @@
+.leftside a {
+    transition: all 0.5s ease;
+}
+.leftside a:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}

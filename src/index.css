@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    -moz-user-select: -moz-none;
+      -webkit-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+}
+
+/* Scrollbar Style */
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #21d19f;
+}
