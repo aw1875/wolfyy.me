@@ -52,6 +52,7 @@ class Navbar extends Component {
                 <div className="flex flex-row justify-center items-center space-x-2 fixed p-x-4 md:space-x-16 sm:space-x-8 h-20 w-full text-white bg-dark-background dark:bg-dark-dashboard">
                     <a href='/' className="text-md font-semibold uppercase">Home</a>
                     <a href='/projects' className="text-md font-semibold uppercase">Projects</a>
+                    <a href="/resume.pdf" className="text-md font-semibold uppercase">Resume</a>
                     <div id="toggleBtn" onClick={this.toggleDark.bind(this)} className="flex md:fixed md:right-5 justify-end items-center">
                         <input type="checkbox" id="toggle" className="hidden" />
                         <div className="w-16 h-8 flex items-center bg-gray-600 rounded-full p-1 dark:bg-gray-300">

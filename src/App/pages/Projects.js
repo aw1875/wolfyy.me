@@ -7,7 +7,6 @@ import soxada from '../../images/soxada.png'
 import hcaptcha from '../../images/hcaptcha.gif'
 import drunk from '../../images/drunk.png'
 import cashcollege from '../../images/cashcollege.gif'
-import Navbar from '../components/Navbar'
 
 export default function Projects() {
     return (
@@ -17,7 +16,7 @@ export default function Projects() {
 
                     {/* Soxada Card */}
                     <div class="rounded overflow-hidden shadow-lg bg-light-dashboard dark:bg-dark-dashboard card" onClick={() => window.location.href="/projects/soxada"}>
-                    <img class="w-full md:h-56 h-36 object-cover" src={ soxada } alt="hCaptcha Solver" />
+                    <img class="w-full md:h-56 h-36 object-top object-cover" src={ soxada } alt="hCaptcha Solver" />
                         <div class="px-6 py-4">
                             <div class="font-bold text-xl mb-2 text-black text-center dark:text-white">Soxada</div>
                             <p class="text-gray-900 text-base text-center dark:text-gray-300">
@@ -28,7 +27,7 @@ export default function Projects() {
                 
                     {/* hCaptcha Solver Card */}
                     <div class="rounded overflow-hidden shadow-lg bg-light-dashboard dark:bg-dark-dashboard card" onClick={() => window.location.href="/projects/hcaptcha"}>
-                    <img class="w-full md:h-56 h-36 object-cover" src={ hcaptcha } alt="hCaptcha Solver" />
+                    <img class="w-full md:h-56 h-36 object-top object-cover" src={ hcaptcha } alt="hCaptcha Solver" />
                             <div class="px-6 py-4">
                                 <div class="font-bold text-xl mb-2 text-black text-center dark:text-white">hCaptcha Solver</div>
                                 <p class="text-gray-900 text-base text-center dark:text-gray-300">
@@ -39,7 +38,7 @@ export default function Projects() {
                     
                     {/* Drunk Drinking Game Card */}
                     <div class="rounded overflow-hidden shadow-lg bg-light-dashboard dark:bg-dark-dashboard card" onClick={() => window.location.href="/projects/drunk"}>
-                    <img class="w-full md:h-56 h-36 object-cover" src={ drunk } alt="hCaptcha Solver" />
+                    <img class="w-full md:h-56 h-36 object-top object-cover" src={ drunk } alt="hCaptcha Solver" />
                             <div class="px-6 py-4">
                                 <div class="font-bold text-xl mb-2 text-black text-center dark:text-white">Drunk Drinking Game</div>
                                 <p class="text-gray-900 text-base text-center dark:text-gray-300">

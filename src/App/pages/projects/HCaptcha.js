@@ -5,7 +5,7 @@ import { FcGoogle, IoLogoNodejs, ImNpm } from 'react-icons/all'
 import '../../css/Portfolio.css'
 
 // Images
-import hcaptcha from '../../../images/hcaptcha.gif'
+import hcaptcha from '../../../images/hcaptcha-demo.gif'
 
 export default function HCaptcha () {
     return (
