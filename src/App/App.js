@@ -13,6 +13,7 @@ import CashCollege from './pages/projects/CashCollege';
 import Drunk from './pages/projects/Drunk';
 import HCaptcha from './pages/projects/HCaptcha';
 import Soxada from './pages/projects/Soxada';
+import WolfyMusic from './pages/projects/WolfyMusic';
 // import Navbar from './components/Navbar';
 
 class App extends Component {
@@ -27,6 +28,7 @@ class App extends Component {
             <Switch>
               <Route exact path='/' component={Home}/>
               <Route exact path='/projects' component={Projects}/>
+              <Route exact path='/projects/wolfymusic' component={WolfyMusic} />
               <Route exact path='/projects/soxada' component={Soxada} />
               <Route exact path='/projects/hcaptcha' component={HCaptcha} />
               <Route exact path='/projects/drunk' component={Drunk} />

@@ -3,6 +3,7 @@ import React from 'react'
 import '../css/Projects.css'
 
 // Images
+import wolfymusic from '../../images/wolfymusic.gif'
 import soxada from '../../images/soxada.png'
 import hcaptcha from '../../images/hcaptcha.gif'
 import drunk from '../../images/drunk.png'
@@ -13,6 +14,17 @@ export default function Projects() {
         <>
             <div className="min-h-screen bg-light-background flex justify-center items-center space-y-36 py-24 px-10 md:px-24 dark:bg-dark-secondary">
                 <div className="grid md:grid-cols-2 gap-4">
+
+                    {/* Music Bot Card */}
+                    <div class="rounded overflow-hidden shadow-lg bg-light-dashboard dark:bg-dark-dashboard card" onClick={() => window.location.href="/projects/wolfymusic"}>
+                    <img class="w-full md:h-56 h-36 object-top object-cover" src={ wolfymusic } alt="hCaptcha Solver" />
+                        <div class="px-6 py-4">
+                            <div class="font-bold text-xl mb-2 text-black text-center dark:text-white">Wolfy Music Bot</div>
+                            <p class="text-gray-900 text-base text-center dark:text-gray-300">
+                                Discord bot to play Spotify Music in discord voice channels
+                            </p>
+                        </div>
+                    </div>
 
                     {/* Soxada Card */}
                     <div class="rounded overflow-hidden shadow-lg bg-light-dashboard dark:bg-dark-dashboard card" onClick={() => window.location.href="/projects/soxada"}>
